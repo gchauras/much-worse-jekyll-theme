@@ -10,8 +10,9 @@
 - title: "Blog"
   href: "/blog/"
 
-  # subcategories:
-  #  - subtitle: "Item 1"
-  #    subhref: "/miscellany/item-1/"
-  #  - subtitle: "Item 2"
-  #    subhref: "/miscellany/item-2/"
+- title: "Submenu"
+  subcategories:
+    - subtitle: "Item 1"
+      subhref: "/misc/item-1/"
+    - subtitle: "Item 2"
+      subhref: "/misc/item-2/"
