@@ -1,8 +1,10 @@
-<dl class="captioned-img align{{include.align}}" style="max-width:{{include.max_width}}">
-
-<dt><a href="{{ include.href }}"><img src="{{ include.url }}" alt="{{ include.caption }}" /></a></dt>
-
-{% if include.caption %}
-<dd>{{ include.caption }}</dd>
-{% endif %}
-</dl>
+<div class="captioned-img align{{include.align}}">
+    <a href="{{ include.url }}">
+    {% if include.width %}
+    <img src="{{ include.url }}" width="{{ include.width }}" />
+    {% else if include.height %}
+    <img src="{{ include.url }}" height="{{ include.height }}" />
+    {% else %}
+    <img src="{{ include.url }}" />
+    {% endif %}</a>{% if include.caption %}{{ include.caption }}{% endif %}
+</div>

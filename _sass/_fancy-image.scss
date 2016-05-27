@@ -5,19 +5,10 @@
     overflow: hidden;
 }
 
-.captioned-img dd {
-    padding: 2px 0px 3px 0px;
-    margin: 0;
-}
-
-.captioned-img dt {
-    margin: 0;
-}
-
 .captioned-img img {
     display: block;
     margin: auto auto;
-    padding: 0;
+    padding: 0.5em 0 0.5em 0;
     border: none;
 }
 
