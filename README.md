@@ -1,5 +1,7 @@
 # Much-Worse jekyll theme
 
+This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
+
 This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
 this theme has two useful changes:
 
